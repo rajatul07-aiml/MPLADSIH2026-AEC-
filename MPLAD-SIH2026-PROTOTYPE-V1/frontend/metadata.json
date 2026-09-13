@@ -1,6 +1,0 @@
-{
-  "name": "MPLADS AI Risk Intelligence",
-  "description": "AI-assisted monitoring and risk intelligence platform for MPLADS development works.",
-  "requestFramePermissions": [],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
-}
