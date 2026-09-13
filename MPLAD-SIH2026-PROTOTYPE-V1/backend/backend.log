@@ -1,0 +1,58 @@
+INFO:     Will watch for changes in these directories: ['D:\\MPLADS-AI-RISK-INTELLIGENCE\\backend']
+INFO:     Uvicorn running on http://0.0.0.0:8001 (Press CTRL+C to quit)
+INFO:     Started reloader process [3620] using StatReload
+INFO:     Started server process [9800]
+INFO:     Waiting for application startup.
+INFO:api:Loaded 10012 records into api cache.
+INFO:     Application startup complete.
+INFO:src.feature_engineering:Starting feature engineering on 1 rows
+INFO:src.feature_engineering:Feature engineering complete — 46 columns total
+INFO:src.isolation_forest_model:Loaded trained model from D:\MPLADS-AI-RISK-INTELLIGENCE\backend\models\isolation_forest_pipeline.pkl
+INFO:src.isolation_forest_model:Scoring 1 rows with trained model
+INFO:src.isolation_forest_model:Inference complete — 1 anomalies flagged
+INFO:src.rule_engine:Applying deterministic rules to 1 rows
+INFO:src.rule_engine:Rules complete — 1/1 projects triggered at least one rule
+INFO:src.similarity_engine:Running similarity engine (threshold=0.85)
+INFO:src.similarity_engine:Processed 1 geographic groups — 0 similar pairs found
+INFO:src.risk_engine:Aggregating risk — weights ML=50% Rules=30% Sim=20%
+INFO:src.risk_engine:Risk distribution:
+risk_level
+Critical    1
+INFO:api:Loaded 10013 records into api cache.
+INFO:     127.0.0.1:1306 - "POST /api/works/analyze HTTP/1.1" 200 OK
+INFO:     127.0.0.1:13493 - "GET /api/works HTTP/1.1" 200 OK
+INFO:     127.0.0.1:1058 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:9787 - "GET /api/works HTTP/1.1" 200 OK
+INFO:     127.0.0.1:7489 - "GET /api/works HTTP/1.1" 200 OK
+INFO:src.feature_engineering:Starting feature engineering on 1 rows
+INFO:src.feature_engineering:Feature engineering complete — 46 columns total
+INFO:src.isolation_forest_model:Loaded trained model from D:\MPLADS-AI-RISK-INTELLIGENCE\backend\models\isolation_forest_pipeline.pkl
+INFO:src.isolation_forest_model:Scoring 1 rows with trained model
+INFO:src.isolation_forest_model:Inference complete — 1 anomalies flagged
+INFO:src.rule_engine:Applying deterministic rules to 1 rows
+INFO:src.rule_engine:Rules complete — 1/1 projects triggered at least one rule
+INFO:src.similarity_engine:Running similarity engine (threshold=0.85)
+INFO:src.similarity_engine:Processed 1 geographic groups — 3 similar pairs found
+INFO:src.risk_engine:Aggregating risk — weights ML=50% Rules=30% Sim=20%
+INFO:src.risk_engine:Risk distribution:
+risk_level
+High    1
+INFO:api:Loaded 10014 records into api cache.
+INFO:     127.0.0.1:14935 - "POST /api/works/analyze HTTP/1.1" 200 OK
+INFO:     127.0.0.1:1332 - "GET /api/dashboard/summary HTTP/1.1" 200 OK
+INFO:     127.0.0.1:1334 - "GET /api/works/MPL-QA-20260910-001 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:1336 - "GET /api/works/MPL-QA-20260910-001/explanation HTTP/1.1" 200 OK
+INFO:     127.0.0.1:1338 - "POST /api/works/MPL-QA-20260910-001/verification HTTP/1.1" 200 OK
+INFO:     127.0.0.1:1340 - "POST /api/works/MPL-QA-20260910-001/audit HTTP/1.1" 200 OK
+INFO:     127.0.0.1:1342 - "GET /api/works/MPL-QA-20260910-001/audit HTTP/1.1" 200 OK
+INFO:     127.0.0.1:11816 - "GET /api/works HTTP/1.1" 200 OK
+INFO:     127.0.0.1:9502 - "GET /api/alerts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:8150 - "GET /api/alerts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:7737 - "OPTIONS /api/works/analyze HTTP/1.1" 400 Bad Request
+INFO:     127.0.0.1:3433 - "GET /api/works HTTP/1.1" 200 OK
+INFO:     127.0.0.1:4353 - "GET /api/alerts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:3433 - "GET /api/alerts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:3433 - "OPTIONS /api/works/analyze HTTP/1.1" 200 OK
+INFO:     127.0.0.1:4353 - "POST /api/works/analyze HTTP/1.1" 400 Bad Request
+INFO:     127.0.0.1:13637 - "POST /api/works/analyze HTTP/1.1" 400 Bad Request
+INFO:     127.0.0.1:7167 - "GET /api/works/MPL-QA-20260910-001 HTTP/1.1" 200 OK
