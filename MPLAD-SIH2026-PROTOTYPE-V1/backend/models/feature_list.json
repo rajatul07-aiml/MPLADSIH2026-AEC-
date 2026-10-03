@@ -1,0 +1,20 @@
+[
+  "cost_utilization_pct",
+  "release_utilization_pct",
+  "cost_deviation_pct",
+  "financial_physical_gap",
+  "planned_duration_days",
+  "elapsed_days",
+  "delay_days",
+  "payment_frequency_per_100_days",
+  "average_payment_amount",
+  "expenditure_per_progress_percent",
+  "estimate_to_sanction_ratio",
+  "approval_to_sanction_ratio",
+  "release_to_sanction_ratio",
+  "physical_progress_percent",
+  "financial_progress_percent",
+  "number_of_payments",
+  "inspection_count",
+  "number_of_progress_updates"
+]
